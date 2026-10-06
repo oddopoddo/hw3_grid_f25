@@ -119,7 +119,7 @@ nav a:focus {
   }
 
   /* Step 11: Write the selector/rule property to update the .container class */
- container {
+ .container {
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
@@ -142,7 +142,7 @@ nav a:focus {
 
  /* Step 16:Write the selector/rule property to update the .text-block class */
  .text-block {
-     max-height: 235px;
-     overflow: auto;
+      max-height: 235px;
+      overflow: auto;
   }
 }
